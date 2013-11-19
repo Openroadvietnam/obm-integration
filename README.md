@@ -1,4 +1,4 @@
-# Tích hợp Openroad và OBM
+# Tích hợp OBM và Openroad
 
 ## Tổng quan OBM và Openroad
 ### OBM
@@ -22,11 +22,11 @@ Thiết lập cơ chế [single sign-on](http://en.wikipedia.org/wiki/Single_sig
 ## Mô đun tích hợp Openroad và OBM
 ### Mô đun tích hợp trên Openroad
 
-Openroad sử dụng mô đun [CAS client](https://drupal.org/project/cas_services) để kết nối với hệ thống sử dụng Single Sing-On.
+Openroad sử dụng mô đun [CAS client](https://drupal.org/project/cas_services) (mô đun của Drupal) để kết nối với hệ thống sử dụng Single Sing-On.
 
 ### Mô đun tích hợp trên OBM
 
-OBM sử dụng mô đun [CAS client](http://code.google.com/p/rc-cas-plugin/) để kết nối với hệ thống sử dụng Single Sing-On.
+OBM sử dụng mô đun [CAS client](http://code.google.com/p/rc-cas-plugin/) (mô đun của Roundcube) để kết nối với hệ thống sử dụng Single Sing-On.
 
 ## Tài liệu
 
