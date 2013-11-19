@@ -17,16 +17,16 @@ Openroad chưa có một nền tảng nhắn tin (thư điện tử) cho ngườ
 
 ## Sử dụng Single Sign-On
 
-Thiết lập cơ chế [single sign-on](http://en.wikipedia.org/wiki/Single_sign-on) cho phép người dùng Openroad sử dụng hệ thống thư điện tử (OBM) mà chỉ cần đăng nhập hệ thống duy nhất 1 lần.
+Thiết lập cơ chế [single sign-on](http://en.wikipedia.org/wiki/Single_sign-on) (sử dụng Central Authentication Server - CAS) cho phép người dùng Openroad sử dụng hệ thống thư điện tử (OBM) mà chỉ cần đăng nhập hệ thống duy nhất một lần.
 
 ## Mô đun tích hợp Openroad và OBM
 ### Mô đun tích hợp trên Openroad
 
-Openroad sử dụng mô đun [CAS client](https://drupal.org/project/cas_services) (mô đun của Drupal) để kết nối với hệ thống sử dụng Single Sing-On.
+Openroad sử dụng [mô đun của Drupal](https://drupal.org/project/cas_services) (CAS client) để kết nối với hệ thống sử dụng CAS.
 
 ### Mô đun tích hợp trên OBM
 
-OBM sử dụng mô đun [CAS client](http://code.google.com/p/rc-cas-plugin/) (mô đun của Roundcube) để kết nối với hệ thống sử dụng Single Sing-On.
+OBM sử dụng [mô đun của Roundcube](http://code.google.com/p/rc-cas-plugin/) (CAS client) để kết nối với hệ thống sử dụng CAS.
 
 ## Tài liệu
 
