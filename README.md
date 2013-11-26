@@ -28,6 +28,10 @@ Openroad sử dụng [mô đun của Drupal](https://drupal.org/project/cas_serv
 
 OBM sử dụng [mô đun của Roundcube](http://code.google.com/p/rc-cas-plugin/) (CAS client) để kết nối với hệ thống sử dụng CAS.
 
+## File cấu hình trên hệ thống
+
+Các file cấu hình của hệ thống tích hợp Openroad - OBM được đặt trong thư mục [conf](conf).
+
 ## Tài liệu
 
 Tài liệu hướng dẫn cài đặt và tích hợp Openroad - OBM được đặt trong thư mục [docs](docs).
