@@ -7,8 +7,8 @@
 // whether to force all users to use CAS to authenticate. If set to true,
 //     all users trying to load the login form will be redirected to
 //     the CAS login URL. This means nobody will ever see the RC login page.
-$rcmail_config['cas_force'] = false;
-//$rcmail_config['cas_force'] = true;
+//$rcmail_config['cas_force'] = false;
+$rcmail_config['cas_force'] = true;
 
 // whether to act as a CAS proxy. If set to true, a proxy ticket will be
 //     retrieved from the CAS server to be used as password for logging into
@@ -42,7 +42,7 @@ $rcmail_config['cas_smtp_name'] = 'smtp://mailobm.openroad.vn';
 //    set to false, a new proxy ticket will be retrieved before each IMAP
 //    request. Setting this to true and enabling caching on the IMAP server
 //    significantly reduces the number of requests made to the CAS server.
-$rcmail_config['cas_imap_caching'] = false;
+$rcmail_config['cas_imap_caching'] = true;
 
 // Time (in seconds) before expiration of cached IMAP Proxy Ticket. After expiration the PT is renewed.
 $rcmail_config['cas_imap_pt_expiration_time'] = 300;
